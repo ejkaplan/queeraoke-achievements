@@ -1,0 +1,17 @@
+[project]
+name = "achievement"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Elle Kaplan",email = "3373930+ejkaplan@users.noreply.github.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pygame-ce (>=2.5.8,<3.0.0)",
+    "pytweening (>=1.2.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
